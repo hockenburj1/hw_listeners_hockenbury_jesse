@@ -2,14 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Contact Me</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+            <input id="firstName" name="firstName" type="text" placeholder="First Name" />
+            <input id="lastName" name="lastName" type="text" placeholder="Last Name" />
+            <input id="email" name="email" type="email" placeholder="E-Mail" />
+            <textarea id="message" name="message" rows="10" placeholder="Message"></textarea>
+            <button class="button">Send</button>
+            <input class="button" type="reset" value="Clear"/>
+        </form>
+    </div>
 
 
     <script src="js/main.js"></script>
